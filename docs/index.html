@@ -89,6 +89,7 @@
   <div class="container mt-5">
     <h1>Logs</h1>
     <div class="my-2">
+      <button class="btn btn-outline-info mr-2" onclick="javascript:addToLogs(sgwtConnect.isAuthorized())">Authorized?</button>
       <button class="btn btn-outline-primary mr-2" onclick="javascript:sgwtConnect.renewAuthorization()">Renew Authorization</button>
       <button class="btn btn-outline-danger mr-2" onclick="javascript:sgwtConnect.discardAuthorization()">Discard Authorization</button>
       <button class="btn btn-outline-danger mr-2" onclick="javascript:sgwtConnect.discardAuthorizationLocally()">Discard Authorization locally</button>
